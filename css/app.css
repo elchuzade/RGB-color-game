@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: lightgrey;
+    font-family: Lato;
+    margin: 0;
+}
+button {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+button:hover {
+    background-color: lightblue;
+}
+#headerDiv {
+    width: 100%;
+    background-color: lightblue;
+}
+#newGameBtn {
+    height: 60px;
+    width: 160px;
+    padding: 0;
+}
+#hardMode, #easyMode {
+    height: 60px;
+    width: 80px;
+    padding: 0;
+}
+h2 {
+    font-size: 32px;
+    margin: 0;
+    padding: 24px;
+    line-height: 1.4;
+}
+.bodyDiv {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+    margin: 0 auto;
+}
+.footDiv {
+    width: 100%;
+    margin: 20px auto;
+}
+.round {
+    border: 1px transparent solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: lightgreen;
+    display: inline-block;
+    border-radius: 20%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+.hovered:hover {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.displayBtn, .displayRes, .displayMode {
+    display: inline-block;
+    margin: 0 20px;
+}
+.selected {
+    background-color: rgb(0, 142, 204);
+    color: white;
+}
+#rgbName {
+    font-size: 1.6em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#displayResText {
+    margin: 0;
+    width: 160px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+.wrongAnswer {
+    color: red;
+    font-size: 24px;
+}
+
+.rightAnswer {
+    color: green;
+    font-size: 24px;
+}
